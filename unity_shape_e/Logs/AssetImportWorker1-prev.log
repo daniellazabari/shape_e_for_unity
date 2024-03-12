@@ -1,0 +1,364 @@
+Unity Editor version:    2022.3.21f1 (bf09ca542b87)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2 (Build 23C64)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/daniellazabari/Desktop/research/unity_shape_e
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62773
+Successfully changed project path to: /Users/daniellazabari/Desktop/research/unity_shape_e
+/Users/daniellazabari/Desktop/research/unity_shape_e
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8116768768] Host "[IP] 10.26.227.232 [Port] 0 [Flags] 2 [Guid] 114047373 [EditorId] 114047373 [Version] 1048832 [Id] OSXEditor(0,Daniellas-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8116768768] Host "[IP] 10.26.227.232 [Port] 0 [Flags] 2 [Guid] 114047373 [EditorId] 114047373 [Version] 1048832 [Id] OSXEditor(0,Daniellas-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 12.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/daniellazabari/Desktop/research/unity_shape_e/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56997
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001987 seconds.
+- Loaded All Assemblies, in  0.250 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.159 seconds
+Domain Reload Profiling: 410ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (160ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (73.2 KB). Loaded Objects now: 3581.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 15.447792 ms (FindLiveObjects: 1.092500 ms CreateObjectMapping: 0.616166 ms MarkObjects: 13.094209 ms  DeleteObjects: 0.642625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 420781.673599 seconds.
+  path: Assets/Pcx/Runtime/Shaders/Common.cginc
+  artifactKey: Guid(53dbcdad165c00f48b5e7ab3b658b33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/Shaders/Common.cginc using Guid(53dbcdad165c00f48b5e7ab3b658b33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11714af5dd65f506bb8f98f95a81b0f3') in 0.046474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Samples/OpenAI Unity/0.2.0/Whisper/fill.png
+  artifactKey: Guid(12fc72030cef3f74daba5d901458b2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenAI Unity/0.2.0/Whisper/fill.png using Guid(12fc72030cef3f74daba5d901458b2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1fdea61a54d33aae45c7958893006ab') in 0.091595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Pcx/Runtime/Shaders/Point.shader
+  artifactKey: Guid(1baec256dca7c1642b87d05510e75a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/Shaders/Point.shader using Guid(1baec256dca7c1642b87d05510e75a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2726f15423a523b235e0c6ac9de1f714') in 0.007487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/Pcx/Editor/PlyImporter.cs
+  artifactKey: Guid(183c1cb276390b14e883dae29f585dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/PlyImporter.cs using Guid(183c1cb276390b14e883dae29f585dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a81b99cd9b61fb3d9f213baceaa1a87b') in 0.003377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PlyFiles/A_red_chair..ply
+  artifactKey: Guid(478908006d26741c1bf9fb6ef0e66b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlyFiles/A_red_chair..ply using Guid(478908006d26741c1bf9fb6ef0e66b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29af082f721cfac24a4d3a275f5c574b') in 0.019442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Pcx/Runtime/Shaders/Disk.cginc
+  artifactKey: Guid(b8e5cac6daf67de449b3cfd878a77876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/Shaders/Disk.cginc using Guid(b8e5cac6daf67de449b3cfd878a77876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5837e337fc34048ea7632ff298dcbbee') in 0.001839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs
+  artifactKey: Guid(a50c06d6aa656da4a97fe6e4669896bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs using Guid(a50c06d6aa656da4a97fe6e4669896bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05204d7f8387d78d63f0f1df30df28b4') in 0.003068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Pcx/Editor/MaterialInspector.cs
+  artifactKey: Guid(4736c2a79e939b44e802153fac6e403c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/MaterialInspector.cs using Guid(4736c2a79e939b44e802153fac6e403c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0dc9adc51c6f3fa0c6f4a3aeeba540c9') in 0.002997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Pcx/Editor/Pcx.Editor.asmdef
+  artifactKey: Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/Pcx.Editor.asmdef using Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1057447f4e5023e300c368429ee5ad9') in 0.002728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2f2f6311e6d6e7636d620e26badf793') in 0.001824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Pcx/Editor/PointCloudDataInspector.cs
+  artifactKey: Guid(8411b5e94234b27449f0b9ee5c00708d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/PointCloudDataInspector.cs using Guid(8411b5e94234b27449f0b9ee5c00708d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7dd040f939d40bcb6473d28babadb4d') in 0.003448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Pcx/Runtime/Pcx.asmdef
+  artifactKey: Guid(e27a0cdc43c9d0e478a5dbde7ee2e5c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/Pcx.asmdef using Guid(e27a0cdc43c9d0e478a5dbde7ee2e5c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcea6c6913487f19e732a1d75c4ba956') in 0.002456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Pcx/Runtime/BakedPointCloud.cs
+  artifactKey: Guid(7e24966311c3a42b880056b5d15db86a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/BakedPointCloud.cs using Guid(7e24966311c3a42b880056b5d15db86a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0357a576d2c85d1a5733adc1d6438b7') in 0.002349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs
+  artifactKey: Guid(c3804b0e31aa5f84d87e17faf91f27a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs using Guid(c3804b0e31aa5f84d87e17faf91f27a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5007d31e173eba75235f6ded2668118') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Pcx/Runtime/Shaders/Disk.shader
+  artifactKey: Guid(7ebf1f15e5b03014d92704caa6c97e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/Shaders/Disk.shader using Guid(7ebf1f15e5b03014d92704caa6c97e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7961e7f9ef16e896815160bc0d7b864') in 0.003910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Pcx/Editor/Default Point.mat
+  artifactKey: Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/Default Point.mat using Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f30cc1f3ddd02db3f1b246930c958614') in 0.009663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Pcx/Editor/PlyImporterInspector.cs
+  artifactKey: Guid(95b6a588a78b42349b595f58b4a69570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/PlyImporterInspector.cs using Guid(95b6a588a78b42349b595f58b4a69570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '290ae5df8c8b0d83df91fbbb984efc4a') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Pcx/Runtime/PointCloudData.cs
+  artifactKey: Guid(26ff0e71eabe6a448bdec7f94568233f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/PointCloudData.cs using Guid(26ff0e71eabe6a448bdec7f94568233f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08a696f6b73a3dd754d53ac13ae2e94c') in 0.001819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Pcx/Runtime/PointCloudRenderer.cs
+  artifactKey: Guid(3b5900aba1767854aa98592c99eb8b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Runtime/PointCloudRenderer.cs using Guid(3b5900aba1767854aa98592c99eb8b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21687a347452f2c96f5cae0b35b5a064') in 0.001978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/PlyFiles/A_birthday_cake..ply
+  artifactKey: Guid(e00445a71574b4a5480fa4b1cd932111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlyFiles/A_birthday_cake..ply using Guid(e00445a71574b4a5480fa4b1cd932111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe8ed69b3a1eab7f0da2f1096c9e5cba') in 0.018130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001638 seconds.
+  path: Assets/Pcx/Editor/PointCloudRendererInspector.cs
+  artifactKey: Guid(a237af582c9918148baae596f2936958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pcx/Editor/PointCloudRendererInspector.cs using Guid(a237af582c9918148baae596f2936958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '481b7d5f3696a143b949eae0789e44c9') in 0.005532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper Sample.unity
+  artifactKey: Guid(8f47e0e7c9e717a4ab6e6faa20ebb0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper Sample.unity using Guid(8f47e0e7c9e717a4ab6e6faa20ebb0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '779334a6443b6a135fa69e8ea0e997d3') in 0.005329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
